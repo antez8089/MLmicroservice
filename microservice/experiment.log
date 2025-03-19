@@ -1,0 +1,118 @@
+2024-12-28 16:27:26,112 - INFO -  * Restarting with stat
+2024-12-28 16:27:34,003 - INFO - Model Bazowy, Input: {'input_data': [1, 2, 3]}, Prediction: 3
+2024-12-28 16:27:34,887 - INFO - Model Bazowy, Input: {'input_data': [1, 2, 3]}, Prediction: 3
+2024-12-28 16:27:35,498 - INFO - Model Zaawansowany, Input: {'input_data': [1, 2, 3]}, Prediction: 5
+2024-12-28 16:28:32,619 - INFO -  * Restarting with stat
+2024-12-28 16:28:43,908 - INFO -  * Restarting with stat
+2024-12-28 16:29:02,912 - INFO - Model Zaawansowany, Input: {'input_data': [1, 2, 3]}, Prediction: 5
+2024-12-28 16:42:22,158 - INFO - Model Bazowy, Input: {'input_data': [1, 2, 3]}, Prediction: 15
+2024-12-28 16:42:30,935 - INFO - Model Zaawansowany, Input: {'input_data': [1, 2, 3]}, Prediction: 25
+2024-12-28 16:42:32,374 - INFO - Model Bazowy, Input: {'input_data': [1, 2, 3]}, Prediction: 15
+2024-12-28 16:42:33,289 - INFO - Model Zaawansowany, Input: {'input_data': [1, 2, 3]}, Prediction: 25
+2024-12-28 16:42:34,346 - INFO - Model Bazowy, Input: {'input_data': [1, 2, 3]}, Prediction: 15
+2024-12-28 16:45:20,772 - INFO - Model Zaawansowany, Input: {'input_data': [1, 2, 3]}, Prediction: 25
+2025-01-02 20:10:09,608 - ERROR - Błąd w predictB: 400 Bad Request: Failed to decode JSON object: Extra data: line 1 column 5 (char 4)
+2025-01-02 20:10:43,428 - ERROR - Błąd w predictB: If using all scalar values, you must pass an index
+2025-01-02 20:11:23,759 - ERROR - Błąd w predictB: If using all scalar values, you must pass an index
+2025-01-03 01:20:58,441 - ERROR - Błąd w predictB: "None of ['track_id'] are in the columns"
+2025-01-03 01:23:59,473 - ERROR - Błąd w predictB: "None of ['track_id'] are in the columns"
+2025-01-03 01:26:25,794 - ERROR - Błąd w predictB: 'track_id'
+2025-01-03 01:29:40,672 - ERROR - Błąd w predictB: 'track_id'
+2025-01-03 02:18:59,921 - ERROR - Błąd w predictB: 'track_id'
+2025-01-03 02:20:42,857 - ERROR - Błąd w predictB: 'play_count'
+2025-01-03 02:24:03,152 - ERROR - Błąd w predictB: 'track_id'
+2025-01-03 02:27:57,321 - ERROR - Błąd w predictB: 'track_id'
+2025-01-20 14:53:54,968 - ERROR - Błąd w predictB: Addition/subtraction of integers and integer-arrays with Timestamp is no longer supported.  Instead of adding/subtracting `n`, use `n * obj.freq`
+2025-01-24 17:57:04,347 - INFO - Test AB. Test rozpoczęty dla daty 2024-01-08.
+2025-01-24 18:00:01,181 - INFO - Test AB. Playlista modelu A: ['bad guy', 'drivers license', 'Put Your Records On', 'Golden', 'La Tóxica', 'The Nights', 'positions', 'BICHOTA', 'Star Shopping', 'Whoopty', 'Heartbreak Anniversary', 'Lucid Dreams', 'The Box', 'Film out', 'Up', 'Hayloft', 'Electric Love', 'Martin & Gina', 'The Less I Know The Better', 'Sweater Weather'].
+2025-01-24 18:00:01,181 - INFO - Test AB. Playlista modelu B: ['Maniac', 'My Head & My Heart', 'drivers license', 'Anyone', 'Dreams - 2004 Remaster', 'Believer', 'The Business', 'Up', 'telepatía', 'In Your Eyes', 'Streets', "Say You Won't Let Go", 'Stressed Out', 'Take You Dancing', 'Follow You', 'The Less I Know The Better', "Why'd You Only Call Me When You're High?", 'Therefore I Am', "Cupid's Chokehold / Breakfast in America", 'goosebumps'].
+2025-01-24 18:08:05,130 - ERROR - Błąd w AB_test: hash_id() takes 1 positional argument but 2 were given
+2025-01-24 18:18:56,947 - INFO - Test AB. Test rozpoczęty dla daty 2024-01-08.
+2025-01-24 18:21:18,909 - INFO - Test AB. Playlista modelu A: ['bad guy', 'drivers license', 'Put Your Records On', 'Golden', 'La Tóxica', 'The Nights', 'positions', 'BICHOTA', 'Star Shopping', 'Whoopty', 'Heartbreak Anniversary', 'Lucid Dreams', 'The Box', 'Film out', 'Up', 'Hayloft', 'Electric Love', 'Martin & Gina', 'The Less I Know The Better', 'Sweater Weather'].
+2025-01-24 18:21:18,909 - INFO - Test AB. Playlista modelu B: ['Maniac', 'My Head & My Heart', 'drivers license', 'Anyone', 'Dreams - 2004 Remaster', 'Believer', 'The Business', 'Up', 'telepatía', 'In Your Eyes', 'Streets', "Say You Won't Let Go", 'Stressed Out', 'Take You Dancing', 'Follow You', 'The Less I Know The Better', "Why'd You Only Call Me When You're High?", 'Therefore I Am', "Cupid's Chokehold / Breakfast in America", 'goosebumps'].
+2025-01-24 18:21:27,683 - INFO - Test AB. Użytkownik 123 przypisany do grupy A
+2025-01-24 18:21:32,629 - INFO - Test AB. Użytkownik 123 przypisany do grupy A
+2025-01-24 18:21:39,080 - INFO - Test AB. Użytkownik 122 przypisany do grupy B
+2025-01-24 18:21:43,337 - INFO - Test AB. Użytkownik 122 przypisany do grupy B
+2025-01-24 18:21:49,035 - INFO - Test AB. Użytkownik 125 przypisany do grupy B
+2025-01-24 18:23:37,547 - INFO - Test AB. Test rozpoczęty dla daty 2024-01-08.
+2025-01-24 18:26:08,709 - INFO - Test AB. Playlista modelu A: ['bad guy', 'drivers license', 'Put Your Records On', 'Golden', 'La Tóxica', 'The Nights', 'positions', 'BICHOTA', 'Star Shopping', 'Whoopty', 'Heartbreak Anniversary', 'Lucid Dreams', 'The Box', 'Film out', 'Up', 'Hayloft', 'Electric Love', 'Martin & Gina', 'The Less I Know The Better', 'Sweater Weather'].
+2025-01-24 18:26:08,709 - INFO - Test AB. Playlista modelu B: ['Maniac', 'My Head & My Heart', 'drivers license', 'Anyone', 'Dreams - 2004 Remaster', 'Believer', 'The Business', 'Up', 'telepatía', 'In Your Eyes', 'Streets', "Say You Won't Let Go", 'Stressed Out', 'Take You Dancing', 'Follow You', 'The Less I Know The Better', "Why'd You Only Call Me When You're High?", 'Therefore I Am', "Cupid's Chokehold / Breakfast in America", 'goosebumps'].
+2025-01-24 18:26:31,906 - INFO - Test AB. Użytkownik 127 przypisany do grupy A
+2025-01-24 18:26:40,894 - INFO - Test AB. Użytkownik 125 przypisany do grupy B
+2025-01-24 18:26:44,390 - INFO - Test AB. Użytkownik 125 przypisany do grupy B
+2025-01-24 18:28:04,560 - INFO - Test AB. Test rozpoczęty dla daty 2024-01-08.
+2025-01-24 18:30:36,813 - INFO - Test AB. Playlista modelu A: ['bad guy', 'drivers license', 'Put Your Records On', 'Golden', 'La Tóxica', 'The Nights', 'positions', 'BICHOTA', 'Star Shopping', 'Whoopty', 'Heartbreak Anniversary', 'Lucid Dreams', 'The Box', 'Film out', 'Up', 'Hayloft', 'Electric Love', 'Martin & Gina', 'The Less I Know The Better', 'Sweater Weather'].
+2025-01-24 18:30:36,813 - INFO - Test AB. Playlista modelu B: ['Maniac', 'My Head & My Heart', 'drivers license', 'Anyone', 'Dreams - 2004 Remaster', 'Believer', 'The Business', 'Up', 'telepatía', 'In Your Eyes', 'Streets', "Say You Won't Let Go", 'Stressed Out', 'Take You Dancing', 'Follow You', 'The Less I Know The Better', "Why'd You Only Call Me When You're High?", 'Therefore I Am', "Cupid's Chokehold / Breakfast in America", 'goosebumps'].
+2025-01-24 18:31:39,981 - INFO - Test AB. Użytkownik 125 przypisany do grupy B
+2025-01-24 18:35:18,306 - INFO - Test AB. Test rozpoczęty dla daty 2024-01-08.
+2025-01-24 18:37:36,517 - INFO - Test AB. Playlista modelu A: ['bad guy', 'drivers license', 'Put Your Records On', 'Golden', 'La Tóxica', 'The Nights', 'positions', 'BICHOTA', 'Star Shopping', 'Whoopty', 'Heartbreak Anniversary', 'Lucid Dreams', 'The Box', 'Film out', 'Up', 'Hayloft', 'Electric Love', 'Martin & Gina', 'The Less I Know The Better', 'Sweater Weather'].
+2025-01-24 18:37:36,518 - INFO - Test AB. Playlista modelu B: ['Maniac', 'My Head & My Heart', 'drivers license', 'Anyone', 'Dreams - 2004 Remaster', 'Believer', 'The Business', 'Up', 'telepatía', 'In Your Eyes', 'Streets', "Say You Won't Let Go", 'Stressed Out', 'Take You Dancing', 'Follow You', 'The Less I Know The Better', "Why'd You Only Call Me When You're High?", 'Therefore I Am', "Cupid's Chokehold / Breakfast in America", 'goosebumps'].
+2025-01-24 18:37:46,327 - INFO - Test AB. Użytkownik 125 przypisany do grupy B
+2025-01-24 18:37:58,098 - INFO - Test AB. Użytkownik 124 przypisany do grupy B
+2025-01-24 18:38:12,485 - INFO - Test AB. Użytkownik 122 przypisany do grupy B
+2025-01-24 18:38:20,594 - INFO - Test AB. Użytkownik 120 przypisany do grupy A
+2025-01-24 18:38:55,969 - INFO - Test AB. Test zakończony.
+2025-01-24 18:38:55,969 - INFO - Test AB. Użytkownicy modelu A: ['120', '120']. Liczba użytkowników: 2.
+2025-01-24 18:38:55,970 - INFO - Test AB. Użytkownicy modelu B: ['125', '125', '124', '124', '122', '122']. Liczba użytkowników: 6.
+2025-01-24 19:25:36,796 - INFO - Test AB. Test rozpoczęty dla daty 2024-01-08.
+2025-01-24 19:28:05,848 - INFO - Test AB. Playlist model A: ['bad guy', 'drivers license', 'Put Your Records On', 'Golden', 'La Tóxica', 'The Nights', 'positions', 'BICHOTA', 'Star Shopping', 'Whoopty', 'Heartbreak Anniversary', 'Lucid Dreams', 'The Box', 'Film out', 'Up', 'Hayloft', 'Electric Love', 'Martin & Gina', 'The Less I Know The Better', 'Sweater Weather'].
+2025-01-24 19:28:05,848 - INFO - Test AB. Playlist model B: ['Maniac', 'My Head & My Heart', 'drivers license', 'Anyone', 'Dreams - 2004 Remaster', 'Believer', 'The Business', 'Up', 'telepatía', 'In Your Eyes', 'Streets', "Say You Won't Let Go", 'Stressed Out', 'Take You Dancing', 'Follow You', 'The Less I Know The Better', "Why'd You Only Call Me When You're High?", 'Therefore I Am', "Cupid's Chokehold / Breakfast in America", 'goosebumps'].
+2025-01-24 19:28:21,548 - INFO - Test AB. User 122 added to group B
+2025-01-24 19:28:35,483 - INFO - Test AB. User 112 added to group B
+2025-01-24 19:28:40,582 - INFO - Test AB. User 102 added to group A
+2025-01-24 19:29:00,004 - INFO - Test AB. User 230 added to group B
+2025-01-24 19:29:06,140 - INFO - Test AB. User 231 added to group A
+2025-01-24 19:29:12,882 - INFO - Test AB. User 232 added to group B
+2025-01-24 19:29:23,402 - INFO - Test AB. Test zakończony.
+2025-01-24 19:29:23,402 - INFO - Test AB. Model A users: ['102', '231']. Users count: 2.
+2025-01-24 19:29:23,402 - INFO - Test AB. Model B users: ['122', '112', '230', '232']. Users count: 4.
+2025-01-24 19:38:41,127 - INFO - Test AB. Test rozpoczęty dla daty 2024-01-08.
+2025-01-24 19:41:17,681 - INFO - Test AB. Test rozpoczęty dla daty 2024-01-08.
+2025-01-24 19:43:53,243 - INFO - Test AB. Playlist model A: ['bad guy', 'drivers license', 'Put Your Records On', 'Golden', 'La Tóxica', 'The Nights', 'positions', 'BICHOTA', 'Star Shopping', 'Whoopty', 'Heartbreak Anniversary', 'Lucid Dreams', 'The Box', 'Film out', 'Up', 'Hayloft', 'Electric Love', 'Martin & Gina', 'The Less I Know The Better', 'Sweater Weather'].
+2025-01-24 19:43:53,243 - INFO - Test AB. Playlist model B: ['Maniac', 'My Head & My Heart', 'drivers license', 'Anyone', 'Dreams - 2004 Remaster', 'Believer', 'The Business', 'Up', 'telepatía', 'In Your Eyes', 'Streets', "Say You Won't Let Go", 'Stressed Out', 'Take You Dancing', 'Follow You', 'The Less I Know The Better', "Why'd You Only Call Me When You're High?", 'Therefore I Am', "Cupid's Chokehold / Breakfast in America", 'goosebumps'].
+2025-01-24 19:48:41,753 - INFO - Test AB. User 101 added to group A
+2025-01-24 19:48:49,127 - INFO - Test AB. User 128 added to group A
+2025-01-24 19:48:57,019 - INFO - Test AB. User 129 added to group B
+2025-01-24 19:49:03,274 - INFO - Test AB. User 134 added to group B
+2025-01-24 19:49:27,227 - INFO - Test AB. Test zakończony.
+2025-01-24 19:49:27,228 - INFO - Test AB. Model A users: []. Users count: 0.
+2025-01-24 19:49:27,228 - INFO - Test AB. Model B users: []. Users count: 0.
+2025-01-24 19:51:50,150 - INFO - Test AB. Test rozpoczęty dla daty 2024-01-08.
+2025-01-24 19:54:38,843 - INFO - Test AB. Playlist model A: ['bad guy', 'drivers license', 'Put Your Records On', 'Golden', 'La Tóxica', 'The Nights', 'positions', 'BICHOTA', 'Star Shopping', 'Whoopty', 'Heartbreak Anniversary', 'Lucid Dreams', 'The Box', 'Film out', 'Up', 'Hayloft', 'Electric Love', 'Martin & Gina', 'The Less I Know The Better', 'Sweater Weather'].
+2025-01-24 19:54:38,843 - INFO - Test AB. Playlist model B: ['Maniac', 'My Head & My Heart', 'drivers license', 'Anyone', 'Dreams - 2004 Remaster', 'Believer', 'The Business', 'Up', 'telepatía', 'In Your Eyes', 'Streets', "Say You Won't Let Go", 'Stressed Out', 'Take You Dancing', 'Follow You', 'The Less I Know The Better', "Why'd You Only Call Me When You're High?", 'Therefore I Am', "Cupid's Chokehold / Breakfast in America", 'goosebumps'].
+2025-01-24 19:55:23,366 - INFO - Test AB. User 101 added to group A
+2025-01-24 19:55:27,512 - INFO - Test AB. User 128 added to group A
+2025-01-24 19:55:30,384 - INFO - Test AB. User 129 added to group B
+2025-01-24 19:55:38,096 - INFO - Test AB. User 134 added to group B
+2025-01-24 19:55:43,723 - INFO - Test AB. Test zakończony.
+2025-01-24 19:55:43,723 - INFO - Test AB. Model A users: ['101', '128']. Users count: 2.
+2025-01-24 19:55:43,723 - INFO - Test AB. Model B users: ['129', '134']. Users count: 2.
+2025-01-24 20:00:00,666 - INFO - Test AB. Test rozpoczęty dla daty 2024-01-08.
+2025-01-24 20:02:32,076 - INFO - Test AB. Playlist model A: ['bad guy', 'drivers license', 'Put Your Records On', 'Golden', 'La Tóxica', 'The Nights', 'positions', 'BICHOTA', 'Star Shopping', 'Whoopty', 'Heartbreak Anniversary', 'Lucid Dreams', 'The Box', 'Film out', 'Up', 'Hayloft', 'Electric Love', 'Martin & Gina', 'The Less I Know The Better', 'Sweater Weather'].
+2025-01-24 20:02:32,076 - INFO - Test AB. Playlist model B: ['Maniac', 'My Head & My Heart', 'drivers license', 'Anyone', 'Dreams - 2004 Remaster', 'Believer', 'The Business', 'Up', 'telepatía', 'In Your Eyes', 'Streets', "Say You Won't Let Go", 'Stressed Out', 'Take You Dancing', 'Follow You', 'The Less I Know The Better', "Why'd You Only Call Me When You're High?", 'Therefore I Am', "Cupid's Chokehold / Breakfast in America", 'goosebumps'].
+2025-01-24 20:02:43,970 - INFO - Test AB. User 101 added to group A
+2025-01-24 20:02:48,998 - INFO - Test AB. User 128 added to group A
+2025-01-24 20:02:54,788 - INFO - Test AB. User 129 added to group B
+2025-01-24 20:03:03,181 - INFO - Test AB. User 134 added to group B
+2025-01-24 20:13:54,273 - INFO - Test AB. Test rozpoczęty dla daty 2024-01-08.
+2025-01-24 20:21:49,706 - INFO - Test AB. Playlist model A: ['bad guy', 'drivers license', 'Put Your Records On', 'Golden', 'La Tóxica', 'The Nights', 'positions', 'BICHOTA', 'Star Shopping', 'Whoopty', 'Heartbreak Anniversary', 'Lucid Dreams', 'The Box', 'Film out', 'Up', 'Hayloft', 'Electric Love', 'Martin & Gina', 'The Less I Know The Better', 'Sweater Weather'].
+2025-01-24 20:21:49,708 - INFO - Test AB. Playlist model B: ['Maniac', 'My Head & My Heart', 'drivers license', 'Anyone', 'Dreams - 2004 Remaster', 'Believer', 'The Business', 'Up', 'telepatía', 'In Your Eyes', 'Streets', "Say You Won't Let Go", 'Stressed Out', 'Take You Dancing', 'Follow You', 'The Less I Know The Better', "Why'd You Only Call Me When You're High?", 'Therefore I Am', "Cupid's Chokehold / Breakfast in America", 'goosebumps'].
+2025-01-24 20:22:42,489 - INFO - Test AB. User 101 added to group A
+2025-01-24 20:22:46,896 - INFO - Test AB. User 128 added to group A
+2025-01-24 20:22:50,721 - INFO - Test AB. User 129 added to group B
+2025-01-24 20:22:55,644 - INFO - Test AB. User 134 added to group B
+2025-01-24 20:30:02,527 - INFO - Test AB. Test rozpoczęty dla daty 2024-01-08.
+2025-01-24 20:32:21,992 - INFO - Test AB. Playlist model A: ['bad guy', 'drivers license', 'Put Your Records On', 'Golden', 'La Tóxica', 'The Nights', 'positions', 'BICHOTA', 'Star Shopping', 'Whoopty', 'Heartbreak Anniversary', 'Lucid Dreams', 'The Box', 'Film out', 'Up', 'Hayloft', 'Electric Love', 'Martin & Gina', 'The Less I Know The Better', 'Sweater Weather'].
+2025-01-24 20:32:21,993 - INFO - Test AB. Playlist model B: ['Maniac', 'My Head & My Heart', 'drivers license', 'Anyone', 'Dreams - 2004 Remaster', 'Believer', 'The Business', 'Up', 'telepatía', 'In Your Eyes', 'Streets', "Say You Won't Let Go", 'Stressed Out', 'Take You Dancing', 'Follow You', 'The Less I Know The Better', "Why'd You Only Call Me When You're High?", 'Therefore I Am', "Cupid's Chokehold / Breakfast in America", 'goosebumps'].
+2025-01-24 20:32:28,374 - INFO - Test AB. User 101 added to group A
+2025-01-24 20:32:33,946 - INFO - Test AB. User 128 added to group A
+2025-01-24 20:32:37,685 - INFO - Test AB. User 129 added to group B
+2025-01-24 20:32:43,362 - INFO - Test AB. User 134 added to group B
+2025-01-24 23:08:58,713 - INFO - Test AB. Test rozpoczęty dla daty 2024-01-08.
+2025-01-24 23:11:19,047 - INFO - Test AB. Playlist model A: ['bad guy', 'drivers license', 'Put Your Records On', 'Golden', 'La Tóxica', 'The Nights', 'positions', 'BICHOTA', 'Star Shopping', 'Whoopty', 'Heartbreak Anniversary', 'Lucid Dreams', 'The Box', 'Film out', 'Up', 'Hayloft', 'Electric Love', 'Martin & Gina', 'The Less I Know The Better', 'Sweater Weather'].
+2025-01-24 23:11:19,047 - INFO - Test AB. Playlist model B: ['Maniac', 'My Head & My Heart', 'drivers license', 'Anyone', 'Dreams - 2004 Remaster', 'Believer', 'The Business', 'Up', 'telepatía', 'In Your Eyes', 'Streets', "Say You Won't Let Go", 'Stressed Out', 'Take You Dancing', 'Follow You', 'The Less I Know The Better', "Why'd You Only Call Me When You're High?", 'Therefore I Am', "Cupid's Chokehold / Breakfast in America", 'goosebumps'].
+2025-01-24 23:18:34,869 - INFO - Test AB. User 101 added to group A
+2025-01-24 23:18:39,949 - INFO - Test AB. User 128 added to group A
+2025-01-24 23:18:44,209 - INFO - Test AB. User 129 added to group B
+2025-01-24 23:18:49,327 - INFO - Test AB. User 134 added to group B
